@@ -4,7 +4,7 @@ function renderLicenseBadge(license) {
   if (license === 'None')
     return '';
   else
-  return `![${license}](https://img.sheilds.io/badge/License-${license}-lightblue.svg)`;
+  return `![${license}](https://img.shields.io/badge/License-${license}-lightblue.svg)`;
 }
 // MIT 
 // Apache
