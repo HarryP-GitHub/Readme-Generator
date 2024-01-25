@@ -1,9 +1,9 @@
-# test
+# TEST
 
-  ![BSL](https://img.sheilds.io/badge/License-BSL-lightblue.svg)
+  ![MIT](https://img.shields.io/badge/License-MIT-lightblue.svg)
 
   ## Description
-  test
+  TEST
 
   ## Table of Contents
   
@@ -16,23 +16,23 @@
   - [Questions](#questions)
 
   ## Installation
-  test
+  TEST
 
   ## Usage
-  test
+  TEST
 
   ## License
-  The license used for this project was: ![BSL](https://www.boost.org/LICENSE_1_0.txt)
+  The license used for this project was: ![MIT](https://opensource.org/licenses/MIT)
 
   ## Contributing
-  test
+  TEST
 
   ## Tests
-  test
+  TEST
 
   ## Questions
   If you have any questions, please reach out on GitHub
-  [test](https://github.com/test)
+  [ME](https://github.com/ME)
   or Via Email:
-  test
+  MYEMAIL
 

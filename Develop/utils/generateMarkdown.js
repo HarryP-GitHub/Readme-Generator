@@ -4,7 +4,7 @@ function renderLicenseBadge(license) {
   if (license === 'None')
     return '';
   else
-  return `![${license}](https://img.sheilds.io/badge/License-${license}-lightblue.svg)`;
+  return `![${license}](https://img.shields.io/badge/License-${license}-lightblue.svg)`;
 }
 // MIT 
 // Apache
@@ -41,16 +41,16 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
+  const link = renderLicenseLink(license);
   if (license === 'None')
   return '';
   else 
-  return 'The license used for this project was:'
+  return `The license used for this project was: ![${license}](${link})`
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   const badge = renderLicenseBadge(data.license);
-  const link = renderLicenseLink(data.license); 
   const section = renderLicenseSection(data.license);
 
   return `# ${data.title}
@@ -77,7 +77,7 @@ function generateMarkdown(data) {
   ${data.usage}
 
   ## License
-  ${section} ![${data.license}](${link})
+  ${section}
 
   ## Contributing
   ${data.contributing}
