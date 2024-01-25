@@ -37,3 +37,6 @@ N/A
 ## Video Demo
 
 [Video Demo](https://drive.google.com/file/d/1uE5cN_87KnsE4Uwm7Q7rEuKxW4ENeKsJ/view)
+
+This is how an example of a generated readme will look on GitHub
+![Generated Readme](./Develop/assets/images/ReadmeGitHub.png)
